@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+AU+QLD:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awsm -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- animate css -->
+      <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- aos animations -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container">
+      <!-- nabar -->
+      <nav>
+        <!-- logo -->
+        <img class="logo" src="./images/ana_steel.png" alt="logo" />
+        <!-- links -->
+        <ul>
+          <li class="listitem"><a class="links" href="#home">HOME</a></li>
+          <li class="listitem"><a class="links" href="#about">ABOUT</a></li>
+          <li class="listitem"><a class="links" href="#skills">SKILLS</a></li>
+          <li class="listitem"><a class="links" href="#contacts">CONTACTS</a></li>
+        </ul>
+      </nav>
+      <!-- home -->
+      <section id="home">
+        <div class="homecontent">
+          <h1 class="animate__animated animate__backInLeft" id="username">I'm Ana <span id="lname">Steel</span></h1>
+          <p id="userdetails">
+            This is my official portfolio website to describe all
+            <br />
+            Deatails and work experience in web Development.
+          </p>
+          <a id="download" href="./images/resume.pdf" download>DOWNLOAD CV</a>
+        </div>
+        <div class="homeimages">
+          <!-- Shape -->
+          <img src="./images/shape.png" id="shape" class="group1" />
+          <!-- girl -->
+          <img src="./images/girl.png" alt="girl" id="girl" class="group1" />
+        </div>
+      </section>
+      <!-- about -->
+      <section id="about">
+        <div class="sectionhead">
+          <h2 class="mainhaead">About Me</h2>
+          <span class="subhead">Introduction</span>
+        </div>
+        <div class="aboutbody">
+          <div  data-aos="flip-up" class="aboutImage">
+            <img class="img1" src="./images/aboutme.jpg" alt="aboutme" />
+          </div>
+          <div class="aboutContent">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+              possimus porro assumenda itaque aspernatur dolorum ullam quia
+              ducimus aut molestiae accusamus, sint odio asperiores totam
+              architecto veniam dolor ea dolores. Quisquam expedita minima ipsam
+              accusamus cupiditate animi quos corporis repudiandae, adipisci
+              deleniti vel magnam non perferendis a veritatis aut vitae aliquid
+              exercitationem, voluptatibus ab. Molestiae ipsam consequuntur modi
+              soluta accusamus? Magni amet unde quia sequi culpa rem, vero qui
+              iusto ex molestiae itaque aperiam in at aliquam beatae est quod
+              dolorum neque quibusdam? Dignissimos optio hic nostrum animi, quae
+              incidunt.
+            </p>
+            <div class="information">
+              <div class="infobox">
+                <i class="fa-solid fa-user"></i>
+                <span>Ana Steel</span>
+              </div>
+              <div class="infobox">
+                <i class="fa-solid fa-phone"></i>
+                <span>+918844567788</span>
+              </div>
+              <div class="infobox">
+                <i class="fa-solid fa-envelope"></i>
+                <span>anasteel123@gmail.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skills -->
+      <section id="skills">
+        <div class="sectionhead">
+          <h2 class="mainhaead">Skills</h2>
+          <span class="subhead">My Skills</span>
+        </div>
+        <div class="skillcontent">
+          <div class="progressbar">
+            <!-- progressbar -->
+            <!-- htmlbar -->
+            <div class="bars">
+              <h3 class="barhead">HTML</h3>
+              <span class="barpercent">85%</span>
+              <div class="basebar"></div>
+              <div class="basebar htmlbar"></div>
+            </div>
+            <!-- cssbar -->
+            <div class="bars">
+              <h3 class="barhead">CSS</h3>
+              <span class="barpercent">82%</span>
+              <div class="basebar"></div>
+              <div class="basebar cssbar"></div>
+            </div>
+            <!-- javascript -->
+            <div class="bars">
+              <h3 class="barhead">JAVA</h3>
+              <span class="barpercent">79%</span>
+              <div class="basebar"></div>
+              <div class="basebar javabar"></div>
+            </div>
+            <!-- react -->
+            <div class="bars">
+              <h3 class="barhead">REACT</h3>
+              <span class="barpercent">75%</span>
+              <div class="basebar"></div>
+              <div class="basebar reactbar"></div>
+            </div>
+          </div>
+          <div data-aos="zoom-in-up" class="skillimage">
+            <img src="./images/skills.jpg" alt="skills" />
+          </div>
+        </div>
+      </section>
+      <!-- contacts -->
+      <section id="contacts">
+        <div class="sectionhead">
+          <h2 class="mainhaead">Contacts</h2>
+          <span class="subhead">My Contact</span>
+        </div>
+        <!-- icons -->
+        <div class="iconcollection">
+           <!-- likedin -->
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/sarath-s-kartha" target="-blank" ><i class="fa-brands fa-linkedin brands"></i></fa-linkedin></a>
+           </div>
+        <!-- github -->
+         <div class="icon">
+            <a href="https://www.linkedin.com/in/sarath-s-kartha" target="-blank" ><i class="fa-brands fa-github brands"></i></fa-linkedin></a>
+           </div>
+        <!-- twitter -->
+         <div class="icon">
+            <a href="https://www.linkedin.com/in/sarath-s-kartha" target="-blank" ><i class="fa-brands fa-twitter brands"></i></fa-linkedin></a>
+           </div>
+        <!-- watsappp -->
+         <div class="icon">
+            <a href="https://www.linkedin.com/in/sarath-s-kartha" target="-blank" ><i class="fa-brands fa-whatsapp brands"></i></fa-linkedin></a>
+           </div>
+        <!-- facedoook -->
+         <div class="icon">
+            <a href="https://www.linkedin.com/in/sarath-s-kartha" target="-blank" ><i class="fa-brands fa-facebook brands"></i></fa-linkedin></a>
+           </div>
+       <!-- instagram -->
+        <div class="icon">
+            <a href="https://www.linkedin.com/in/sarath-s-kartha" target="-blank" ><i class="fa-brands fa-instagram brands"></i></fa-linkedin></a>
+          </div>
+          </div>
+      </section>
+      <!-- footer -->
+       <footer>
+        <p id="copyright">&copy; My portfolio website -june 2025, All rights reserved to &reg; Ana Steel </p>
+        <div class="icon upaArrow">
+          <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+        </div>
+       </footer>
+    </div>
+  </body>
+  <!-- aos animation cdn script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- intilize aos -->
+  <script>
+  AOS.init();
+</script>
+  </html>
